@@ -6,6 +6,11 @@ A brand for AI + Marketing + Research + Business Intelligence.
 
 ## Repository Contents
 
+### 🕒 Product Prototype
+- **[index.html](index.html)** — Multi-time-zone digital clock UI
+- **[clock.mjs](clock.mjs)** — Live clock logic and time-zone formatting/state helpers
+- **[styles.css](styles.css)** — Fathom-aligned responsive styling
+
 ### 📋 Core Strategy
 - **[BRAND_STRATEGY.md](BRAND_STRATEGY.md)** — Vision, positioning, and brand pillars
 - **[NAMING_RATIONALE.md](NAMING_RATIONALE.md)** — Why "Fathom" and competitive analysis
@@ -17,6 +22,17 @@ A brand for AI + Marketing + Research + Business Intelligence.
 - **[CONTENT_STRATEGY.md](CONTENT_STRATEGY.md)** — Content pillars, cadence, distribution, metrics
 
 ## Quick Start
+
+### Run the clock locally
+1. Open `index.html` in a modern browser.
+2. Use **Add time zone** to add clocks from the list.
+3. Use each **Remove** button to remove a clock.
+4. Toggle **Use 24-hour time** to switch between 12/24-hour display.
+
+### Run tests
+```bash
+node --test tests/clock.test.mjs
+```
 
 ### Brand Promise
 **Fathom** = Deep understanding applied to AI, marketing, and business growth.
